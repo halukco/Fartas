@@ -1,0 +1,1 @@
+<center><br><font color="maroon">Bu Sayfaya Eriþmek Ýçin Yetkiniz Yoktur..</font></center>

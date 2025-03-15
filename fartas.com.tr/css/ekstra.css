@@ -1,0 +1,200 @@
+
+    #sliderAlti {
+    position: relative
+}
+
+#sliderAlti .container {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -72px
+}
+
+#sliderAlti .row {
+    align-items: flex-end;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15)
+}
+
+#sliderAlti .row:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0)
+}
+
+#sliderAlti .type {
+    background: #fff;
+    padding: 0;
+    position: relative
+}
+
+#sliderAlti .type:before {
+    content: "";
+    position: absolute;
+    border-right: 1px solid #ddd;
+    width: 1px;
+    top: 0;
+    right: 0;
+    height: 100%
+}
+
+#sliderAlti .type:last-child:before {
+    display: none
+}
+
+#sliderAlti .muhendislik {
+    border-bottom: 5px solid #0098da
+}
+
+#sliderAlti .enerji {
+    border-bottom: 5px solid #a8cf45
+}
+
+
+#sliderAlti .insaat {
+    border-bottom: 5px solid #ff4f00
+}
+#sliderAlti .alatarim {
+    border-bottom: 5px solid #008000
+}
+
+
+
+#sliderAlti .type-banner {
+    max-height: 0;
+    transition: max-height 1s ease-out;
+    overflow: hidden
+}
+
+#sliderAlti .type-banner img {
+    opacity: 0.9;
+    width: 100%;
+    position: relative;
+    width: calc(100% + 1px)
+}
+
+#sliderAlti .muhendislik .type-banner {
+    background: #003F95
+}
+
+#sliderAlti .enerji .type-banner {
+    background: #0062AB
+}
+
+#sliderAlti .insaat .type-banner {
+    background: #ff4f00
+}
+
+#sliderAlti .alatarim .type-banner {
+    background: #EF6700
+}
+
+#sliderAlti .type-solargy .type-banner {
+    background: #80BC00
+}
+
+#sliderAlti .cat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0
+}
+
+#sliderAlti .type-content {
+    max-height: 0;
+    transition: max-height 1s ease-out;
+    overflow: hidden;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 15px
+}
+
+#sliderAlti .type-img {
+    margin: 15px auto
+}
+
+#sliderAlti .type-img img {
+    max-width: 100%
+}
+
+#sliderAlti .type-title {
+    font-size: 16px;
+    color: #000;
+}
+
+#sliderAlti .type:hover:before {
+    display: none
+}
+
+#sliderAlti .type:hover .type-content {
+    max-height: 500px;
+    transition: max-height 1s ease-in
+}
+
+#sliderAlti .type:hover .type-banner {
+    max-height: 500px;
+    transition: max-height 1s ease-in
+}
+
+#sliderAlti .type:hover.muhendislik {
+    background: #0098da;
+    border-right-color: #0098da
+}
+#sliderAlti .type .enerji {
+    background: #a8cf45;
+    border-right-color: #a8cf45
+}
+
+#sliderAlti .type:hover.enerji {
+    background: #a8cf45;
+    border-right-color: #a8cf45
+}
+
+#sliderAlti .type:hover.alatarim {
+    background: #008000;
+    border-right-color: #008000
+}
+
+#sliderAlti .type:hover.insaat {
+    background: #ff4f00;
+    border-right-color: #ff4f00
+}
+
+#sliderAlti .type:hover.type-konar {
+    background: #EF6700;
+    border-right-color: #EF6700
+}
+
+#sliderAlti .type:hover.type-solargy {
+    background: #80BC00;
+    border-right-color: #80BC00
+}
+
+#sliderAlti .type:hover .type-img img {
+    filter: brightness(0) invert(1)
+}
+
+#sliderAlti .type:hover .type-title {
+    color: #fff
+}
+#sliderAlti .type:hover h3 {
+    color: #fff
+}
+
+
+#sliderAlti:hover .hc-shadow {
+    box-shadow: none
+}
+
+.spanslideryazi
+{
+    color: #0098da;
+}
+@font-face {
+    font-family: 'Trajan Pro';
+    src: url('../fonts/TrajanPro-Bold.woff2') format('woff2'),
+        url('../fonts/TrajanPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
